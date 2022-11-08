@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Docati.DocumentGeneration.Lib", "Demo.Docati.DocumentGeneration.Lib\Demo.Docati.DocumentGeneration.Lib.csproj", "{2D4F45E7-69D0-4571-9FFD-29872AFC4B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Docati.DocumentGeneration.CLI", "Demo.Docati.DocumentGeneration.CLI\Demo.Docati.DocumentGeneration.CLI.csproj", "{AD3B7258-4ECF-4644-A5E0-9550E9CDE0E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D4F45E7-69D0-4571-9FFD-29872AFC4B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4F45E7-69D0-4571-9FFD-29872AFC4B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4F45E7-69D0-4571-9FFD-29872AFC4B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4F45E7-69D0-4571-9FFD-29872AFC4B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3B7258-4ECF-4644-A5E0-9550E9CDE0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3B7258-4ECF-4644-A5E0-9550E9CDE0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3B7258-4ECF-4644-A5E0-9550E9CDE0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3B7258-4ECF-4644-A5E0-9550E9CDE0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04314B75-2A0A-4973-9CEF-7A4E9B41D5BE}
+	EndGlobalSection
+EndGlobal
