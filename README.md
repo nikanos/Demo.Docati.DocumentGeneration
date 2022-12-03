@@ -1,16 +1,18 @@
 ### Demo.Docati.DocumentGeneration
-PDF generation demo based on word templates and XML data using the Docati library and Word-AddIn. See https://www.docati.com/
+PDF generation demo based on word templates and XML data using the Docati library and Word-AddIn.
+This demo uses the v6 of the Docati library.
+See https://www.docati.com/
 
 ### Command line arguments
-  -p, --path             (Default: Files) Template path
+  **-p, --path**             (Default: Files) Template path
 
-  -t, --template         (Default: Template.docx) Template file name
+  **-t, --template**         (Default: Template.docx) Template file name
 
-  -d, --data             (Default: TemplateData.xml) Template data file name
+  **-d, --data**             (Default: TemplateData.xml) Template data file name
 
-  -o, --output-prefix    (Default: Out) Output file name prefix
+  **-o, --output-prefix**    (Default: Out) Output file name prefix
 
-  -c, --output-count     (Default: 1) Output file count
+  **-c, --output-count**     (Default: 1) Output file count
 
 ### Examples
 1. Generate 1 document with prefix Result using the template template.docx in the default template path and the XML data in TemplateData.xml
